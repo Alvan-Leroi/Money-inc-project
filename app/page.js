@@ -22,7 +22,8 @@ export default function Home() {
           </h1>
 
           <p className="heroText">
-            A simple and secure way to stay in control of your finances.
+            A simple and secure way to stay in control of your finances With
+            Alvan very cool guy
           </p>
 
           <a href="#about" className="primaryButton">
