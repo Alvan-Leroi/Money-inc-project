@@ -1,14 +1,17 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main>
       <header className="header">
-        <a href="#home" className="logo">
+        <Link href="/" className="logo">
           Cash-In
-        </a>
+        </Link>
 
         <nav className="navigation">
           <a href="#home">Home</a>
           <a href="#about">About</a>
+          <Link href="/payment">Payment</Link>
         </nav>
       </header>
 
@@ -22,13 +25,13 @@ export default function Home() {
           </h1>
 
           <p className="heroText">
-            A simple and secure way to stay in control of your finances With
-            Alvan very cool guy
+            A simple and secure way to stay in control of your finances with
+            Alvan, a very cool guy.
           </p>
 
-          <a href="#about" className="primaryButton">
-            Learn more
-          </a>
+          <Link href="/payment" className="primaryButton">
+            Make a payment
+          </Link>
         </div>
       </section>
 
